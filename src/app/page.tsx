@@ -4,6 +4,7 @@ import TopBar from '@/components/TopBar';
 
 export default function Home() {
   return (
+    // see if i can push
     <>
       <AnimatedBackground />
       <main className="relative z-10 flex flex-col lg:flex-row w-full min-h-screen">
