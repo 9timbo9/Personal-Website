@@ -1,17 +1,26 @@
 'use client';
-import AnimatedBackground from '@/components/AnimatedBackground';
+import AnimatedBackgroundWrapper from '@/components/AnimatedBackgroundWrapper';
 import TopBar from '@/components/TopBar';
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
     // see if i can push
     <>
-      <AnimatedBackground />
+      <AnimatedBackgroundWrapper />
       <main className="relative z-10 flex flex-col lg:flex-row w-full min-h-screen">
         {/* Left section (sticky header/intro) */}
         <div className="w-full lg:w-[40%] flex flex-col justify-start items-start pl-20 pr-10 py-10 lg:sticky lg:top-0 h-fit lg:h-screen lg:items-end lg:pr-0">
           <div className="w-full lg:w-auto lg:pl-0 lg:pr-10">
-            <img src="headshot.jpg" alt="Timothy Nikolaev" className="w-64 h-64 rounded-full object-cover mb-6 border-2 border-white"/>
+          <Image
+            src="/headshot.jpg"
+            alt="Timothy Nikolaev"
+            width={256}
+            height={256}
+            unoptimized
+            className="w-64 h-64 rounded-full object-cover mb-6 border-2 border-white"
+          />
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-white pl-0 lg:pl-0">Timothy Nikolaev</h1>
             <p className="text-lg text-gray-300 max-w-md pl-6 lg:pl-0">
               Web Developer, Game Dev Enthusiast, and CS Student at University of Oregon
@@ -26,9 +35,9 @@ export default function Home() {
           {/* Replace these with real content later */}
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
-            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Earth Science. I’m passionate about Artificial Intelligence and plan to focus my career in this field. I’ve also been working on game projects and am excited about the possibility of contributing to game development.</p><br></br>
-            <p className="text-gray-400 pl-2">I'm currently exploring opportunities in AI, data science, and game developmentareas where I can apply my skills to innovative projects and help solve real-world problems. I enjoy learning new tools and technologies; right now, I’m actively building in Unity, improving my 3D modeling with Blender, and open to developing websites as well.</p><br></br>
-            <p className="text-gray-400 pl-2">I’m currently seeking job opportunities where I can continue to grow, learn, and make an impact.</p>
+            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Earth Science. I&apos;m passionate about Artificial Intelligence and plan to focus my career in this field. I&apos;ve also been working on game projects and am excited about the possibility of contributing to game development.</p><br></br>
+            <p className="text-gray-400 pl-2">I&apos;m currently exploring opportunities in AI, data science, and game developmentareas where I can apply my skills to innovative projects and help solve real-world problems. I enjoy learning new tools and technologies; right now, I&apos;m actively building in Unity, improving my 3D modeling with Blender, and open to developing websites as well.</p><br></br>
+            <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, and make an impact.</p>
           </section>
 
             <section id="experience">
@@ -67,7 +76,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
               >
-                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">June 2024 – August 2024</div>
+                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">June 2024 &ndash; August 2024</div>
                 <div>
                   <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                   Intern, Brevia Consulting | London Area, United Kingdom
@@ -92,7 +101,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
               >
-                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">March 2024 – Present</div>
+                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">March 2024 &ndash; Present</div>
                 <div>
                   <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                   Math Grader, University of Oregon | Eugene, OR 
@@ -137,11 +146,14 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
             >
-              <img
-                src="/project1.png" 
+              <Image
+                src="/project1.png"
                 alt="Project 1 thumbnail"
+                width={160}
+                height={112}
                 className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
               />
+
               <div>
                 <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                   Grubify
@@ -169,11 +181,14 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
             >
-              <img
-                src="/project2.png" 
-                alt="Project 2 thumbnail"
-                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
-              />
+            <Image
+              src="/project2.png"
+              alt="Project 2 thumbnail"
+              width={160}
+              height={112}
+              className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+            />
+
               <div>
                 <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                   Cone Crisis

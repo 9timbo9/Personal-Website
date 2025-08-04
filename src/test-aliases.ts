@@ -1,2 +1,2 @@
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/SideBar';
 console.log('Alias works! Component:', Sidebar);
