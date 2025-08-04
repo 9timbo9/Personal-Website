@@ -35,8 +35,8 @@ export default function Home() {
           {/* Replace these with real content later */}
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
-            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Earth Science. I&apos;m passionate about Artificial Intelligence and plan to focus my career in this field. I&apos;ve also been working on game projects and am excited about the possibility of contributing to game development.</p><br></br>
-            <p className="text-gray-400 pl-2">I&apos;m currently exploring opportunities in AI, data science, and game developmentareas where I can apply my skills to innovative projects and help solve real-world problems. I enjoy learning new tools and technologies; right now, I&apos;m actively building in Unity, improving my 3D modeling with Blender, and open to developing websites as well.</p><br></br>
+            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Earth Science. I am passionate about Artificial Intelligence and plan to focus my career in this field. I&apos;ve also been working on game projects and am excited about the possibility of contributing to game development.</p><br></br>
+            <p className="text-gray-400 pl-2">I&apos;m currently exploring opportunities in AI, data science, and game development areas where I can apply my skills to innovative projects and help solve real-world problems. I enjoy learning new tools and technologies; right now, I&apos;m actively building in Unity, improving my 3D modeling with Blender, and open to developing websites as well.</p><br></br>
             <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, and make an impact.</p>
           </section>
 
@@ -81,7 +81,7 @@ export default function Home() {
                   <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                   Intern, Brevia Consulting | London Area, United Kingdom
                   </h3>
-                  <p className="text-gray-400 mt-1 text-sm"> Gained experience in data analysis and data scraping skills. Developed data scraping scripts to collect competitor data from public websites and output it to Excel. Conducted data analytics for a press release on the frequency of a specific disease's mentions in parliamentary proceedings.</p>
+                  <p className="text-gray-400 mt-1 text-sm"> Gained experience in data analysis and data scraping skills. Developed data scraping scripts to collect competitor data from public websites and output it to Excel. Conducted data analytics for a press release on the frequency of a specific disease&apos;s mentions in parliamentary proceedings.</p>
                   <div className="flex flex-wrap gap-2 mt-2">
                     {['Python', 'BeautifulSoup (bs4)', 'Requests', 'Excel'].map((tech) => (
                       <span

@@ -7,7 +7,7 @@ import TOPOLOGY from 'vanta/dist/vanta.topology.min';
 
 export default function AnimatedBackground() {
   const vantaRef = useRef<HTMLDivElement>(null);
-  const effectRef = useRef<any>(null);
+  const effectRef = useRef<ReturnType<typeof TOPOLOGY> | null>(null);
 
   useEffect(() => {
     if (!effectRef.current && vantaRef.current) {
