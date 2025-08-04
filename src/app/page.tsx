@@ -14,7 +14,7 @@ export default function Home() {
         <div className="w-full lg:w-[40%] flex flex-col justify-start items-start pl-20 pr-10 py-10 lg:sticky lg:top-0 h-fit lg:h-screen lg:items-end lg:pr-0">
           <div className="w-full lg:w-auto lg:pl-0 lg:pr-10">
           <Image
-            src="/headshot.jpg"
+            src="/Personal-Website/headshot.jpg"
             alt="Timothy Nikolaev"
             width={256}
             height={256}
@@ -147,7 +147,7 @@ export default function Home() {
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
             >
               <Image
-                src="/project1.png"
+                src="/Personal-Website/project1.png"
                 alt="Project 1 thumbnail"
                 width={160}
                 height={112}
@@ -182,7 +182,7 @@ export default function Home() {
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
             >
             <Image
-              src="/project2.png"
+              src="/Personal-Website/project2.png"
               alt="Project 2 thumbnail"
               width={160}
               height={112}
