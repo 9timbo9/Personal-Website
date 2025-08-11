@@ -176,7 +176,7 @@ export default function Home() {
                               {/* Project 2 */}
 
              <a
-              href="https://grubify.ai/"
+              href="https://github.com/9timbo9/ctr-distributed-training"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
@@ -194,7 +194,7 @@ export default function Home() {
                   Click-Through Rate (CTR) prediction pipeline
                 </h3>
                 <p className="text-gray-400 mt-1 text-sm">
-                  This project implements a fairness-aware Click-Through Rate (CTR) prediction pipeline using PyTorch’s Wide & Deep architecture, trained on the anonymized Criteo Fairness in Job Ads Dataset. It includes preprocessing, training, and a FastAPI REST service for real-time predictions, and can be adapted for recruiter-owned, non-anonymized datasets to power production ad targeting systems.
+                  This project implements a fairness-aware Click-Through Rate (CTR) prediction pipeline using PyTorch’s Wide & Deep architecture, trained on the anonymized Criteo Fairness in Job Ads Dataset. It includes preprocessing, training, and a FastAPI REST service for real-time predictions, and can be adapted for recruiter-owned, non-anonymized datasets to power production ad targeting systems. Checkout the README.
                 </p>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {['PyTorch','FastAPI','scikit-learn','Machine Learning','Model Deployment'].map((tech) => (
