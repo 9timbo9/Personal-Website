@@ -242,6 +242,41 @@ export default function Home() {
                 </div>
               </div>
             </a>
+            {/* Project 5 – Coulomb Stress App (In Dev) */}
+            <a
+              href="#" // change if different
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/Personal-Website/project4.png"
+                alt="Coulomb Stress App thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  Coulomb Stress Visualization App <span className="text-xs text-gray-400">(In Development)</span>
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  Interactive tool to compute and visualize Coulomb stress changes on active faults using USGS data and 
+                  Okada-based modeling. Aims to make seismic stress analysis accessible for public and educational use.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['Python', 'FastAPI', 'Plotly', 'USGS APIs', 'GIS'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
 
           </div>
         </section>
