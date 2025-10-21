@@ -126,7 +126,7 @@ export default function Home() {
           </section>
           <div className="pt-6">
           <a
-            href="/TimothyNikolaevResume.pdf" // Replace with the actual path to your PDF
+            href="/Personal-Website/TimothyNikolaevResume.pdf" // Replace with the actual path to your PDF
             target="_blank"
             rel="noopener noreferrer"
             className="text-white font-semibold hover:text-lime-300 transition duration-200"
