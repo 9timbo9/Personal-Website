@@ -22,6 +22,12 @@ export default function TopBar() {
         >
           Projects
         </a>
+        <a
+          href="#clients"
+          className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"
+        >
+          Websites/Clients
+        </a>
 
       </nav>
     </header>
