@@ -35,9 +35,18 @@ export default function Home() {
           {/* Replace these with real content later */}
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
-            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Earth Science. I am passionate about Artificial Intelligence and plan to focus my career in this field. I&apos;ve also been working on game projects and am excited about the possibility of contributing to game development.</p><br></br>
-            <p className="text-gray-400 pl-2">I&apos;m currently exploring opportunities in AI, data science, and game development areas where I can apply my skills to innovative projects and help solve real-world problems. I enjoy learning new tools and technologies; right now, I&apos;m actively building in Unity, improving my 3D modeling with Blender, and open to developing websites as well.</p><br></br>
-            <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, and make an impact.</p>
+            <p className="text-gray-400 pl-2">
+              I am a fourth-year Computer Science student at the University of Oregon with minors in Mathematics and Earth Science. I am passionate about software engineering, artificial intelligence, and interactive systems, with experience building web, mobile, and game applications.
+            </p>
+
+            <p className="text-gray-400 pl-2 mt-4">
+              My work spans full-stack web development, machine learning projects, and gameplay systems in Unity. I enjoy designing responsive user experiences, implementing data-driven features, and creating interactive software that feels polished and intuitive.
+            </p>
+
+            <p className="text-gray-400 pl-2 mt-4">
+              I am currently seeking opportunities where I can grow as a developer and contribute to impactful products in AI, software engineering, or interactive technology.
+            </p>
+
           </section>
 
           <section id="experience">
@@ -214,14 +223,14 @@ export default function Home() {
                 className="group flex flex-col gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
               >
                 <Image
-                  src="/Personal-Website/NSCS.png"
-                  alt="NSCS thumbnail"
+                  src="/Personal-Website/NCSC.png"
+                  alt="NCSC thumbnail"
                   width={200}
                   height={150}
                   className="w-100 h-75 object-cover rounded-md border border-white/10"
                 />
                 <h3 className="text-sm font-semibold text-white group-hover:text-lime-300 transition duration-200">
-                  NSCS 2024, 2025, and 2026 Conference Website
+                  NCSC 2024, 2025, and 2026 Conference Website
                 </h3>
               </a>
             </div>
@@ -246,12 +255,12 @@ export default function Home() {
             </div>
 
             <div className="pl-4">
-              <p className='text-med font-semibold'>Other websites I&apos;ve worked on include:</p>
               <br></br>
+              <p className='text-med font-semibold text-gray-400 pb-1.5'>Other websites I&apos;ve worked on include:</p>
               <ul className='text-lg'>
-                <li><a href="https://www.ieccwa.org/2026/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120">IECC</a>,</li>
-                <li><a href="https://ncce.org/conference/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"> NCCE</a>,</li>
-                <li><a href="https://center.uoregon.edu/AUA/2026/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"> AUA</a>,</li>
+                <li><a href="https://www.ieccwa.org/2026/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120">IECC</a></li>
+                <li><a href="https://ncce.org/conference/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"> NCCE</a></li>
+                <li><a href="https://center.uoregon.edu/AUA/2026/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"> AUA</a></li>
                 <li><a href="https://center.uoregon.edu/LSA/2025/registration/" target="_blank" className="hover:text-lime-300 transition-all duration-200 text-white hover:scale-120"> LSA</a></li>
               </ul>
             </div>
