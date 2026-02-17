@@ -165,7 +165,7 @@ export default function Home() {
           {/* Websites for Client*/}
           <section id="clients" >
             <h2 className="text-3xl font-semibold mb-6 text-white pl-2">Websites/Clients</h2>
-            <p className="text-gray-400 pl-2">Websites for various clients I've worked on in my position at UO Continuing and Professional Education</p><br></br>
+            <p className="text-gray-400 pl-2">Websites for various clients I&apos;ve worked on in my position at UO Continuing and Professional Education</p><br></br>
             <div className="flex flex-col gap-6 ">
               <a
                 href="https://conference.iste.org/2026/"
