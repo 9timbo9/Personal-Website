@@ -83,7 +83,8 @@ export default function Home() {
 
               {/* Experience 2 */}
               <a
-                href="#"
+                href="https://rifflect.app/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
               >
