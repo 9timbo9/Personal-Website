@@ -305,7 +305,41 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-              {/* Project 2 */}
+              {/* Project 2 – Oregon Cascades Glacier Segmentation */}
+              <a
+                href="https://github.com/9timbo9/oregon-glacier-ml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+              >
+                <Image
+                  src="/Personal-Website/overlay_patch_003.png"
+                  alt="Glacier ML Project thumbnail"
+                  width={160}
+                  height={112}
+                  className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+                />
+
+                <div>
+                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                    Oregon Cascades Glacier Segmentation
+                  </h3>
+                  <p className="text-gray-400 mt-1 text-sm">
+                    Terrain-aware machine learning pipeline for detecting and measuring glacier retreat using multispectral satellite imagery and elevation data. Processes Landsat and ASTER datasets to quantify glacier area change across multi-decadal time periods.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {['PyTorch', 'Python', 'Remote Sensing', 'Rasterio', 'Satellite Imagery', 'Machine Learning'].map((tech) => (
+                      <span
+                        key={tech}
+                        className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </a>
+              {/* Project 3*/}
 
               <a
                 href="https://github.com/9timbo9/ctr-distributed-training"
@@ -341,7 +375,7 @@ export default function Home() {
                 </div>
               </a>
 
-              {/* Project 3 */}
+              {/* Project 4 */}
               <a
                 href="https://github.com/9timbo9/Cone_Crisis"
                 target="_blank"
