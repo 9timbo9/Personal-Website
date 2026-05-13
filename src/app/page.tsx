@@ -339,117 +339,156 @@ export default function Home() {
                   </div>
                 </div>
               </a>
+
               {/* Project 3*/}
+              {/* Project 5 – Geologic Hazard Map */}
 
-              <a
-                href="https://github.com/9timbo9/ctr-distributed-training"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+              <a 
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
               >
-                <Image
-                  src="/Personal-Website/project2.png"
-                  alt="Project 2 thumbnail"
-                  width={160}
-                  height={112}
-                  className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
-                />
+              <Image
+                src="/Personal-Website/project5.png"
+                alt="Geologic Hazard Map thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
 
-                <div>
-                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
-                    Click-Through Rate (CTR) prediction pipeline
-                  </h3>
-                  <p className="text-gray-400 mt-1 text-sm">
-                    This project implements a fairness-aware Click-Through Rate (CTR) prediction pipeline using PyTorch’s Wide & Deep architecture, trained on the anonymized Criteo Fairness in Job Ads Dataset. It includes preprocessing, training, and a FastAPI REST service for real-time predictions, and can be adapted for recruiter-owned, non-anonymized datasets to power production ad targeting systems. Checkout the README.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {['PyTorch', 'FastAPI', 'scikit-learn', 'Machine Learning', 'Model Deployment'].map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  Geologic Hazard Map
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  Mobile-friendly interactive map that lets users click anywhere in the US to instantly
+                  surface geologic hazard assessments for that location — covering earthquake risk,
+                  landslide susceptibility, flood zones, and more. Built with property evaluation and
+                  insurance use cases in mind, but equally useful for general curiosity about the ground
+                  beneath your feet.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['React', 'Vite', 'MapLibre', 'Tailwind CSS'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
-              </a>
+              </div>
+            </a>
+            <a
+              href="https://github.com/9timbo9/ctr-distributed-training"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/Personal-Website/project2.png"
+                alt="Project 2 thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
 
-              {/* Project 4 */}
-              <a
-                href="https://github.com/9timbo9/Cone_Crisis"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
-              >
-                <Image
-                  src="/Personal-Website/project3.png"
-                  alt="Project 3 thumbnail"
-                  width={160}
-                  height={112}
-                  className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
-                />
-
-                <div>
-                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
-                    Cone Crisis
-                  </h3>
-                  <p className="text-gray-400 mt-1 text-sm">
-                    Cone Crisis is a fast-paced ice cream shop simulator developed in Unity where players manage customer orders under time pressure. Gameplay includes scooping flavors, building sundaes, and handling increasing difficulty as customer demand rises. Designed with responsive UI, custom shaders, and smooth animations to deliver an engaging experience. Features player progression, scoring, and in-game tutorials.                </p>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {['C#', 'Unity', 'ShaderLab', 'HLSL', 'Game Development'].map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  Click-Through Rate (CTR) prediction pipeline
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  This project implements a fairness-aware Click-Through Rate (CTR) prediction pipeline using PyTorch’s Wide & Deep architecture, trained on the anonymized Criteo Fairness in Job Ads Dataset. It includes preprocessing, training, and a FastAPI REST service for real-time predictions, and can be adapted for recruiter-owned, non-anonymized datasets to power production ad targeting systems. Checkout the README.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['PyTorch', 'FastAPI', 'scikit-learn', 'Machine Learning', 'Model Deployment'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
-              </a>
-              {/* Project 5 – Coulomb Stress App (In Dev) */}
-              <a
-                href="#" // change if different
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
-              >
-                <Image
-                  src="/Personal-Website/project4.png"
-                  alt="Coulomb Stress App thumbnail"
-                  width={160}
-                  height={112}
-                  className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
-                />
+              </div>
+            </a>
 
-                <div>
-                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
-                    Coulomb Stress Visualization App <span className="text-xs text-gray-400">(In Development)</span>
-                  </h3>
-                  <p className="text-gray-400 mt-1 text-sm">
-                    Interactive tool to compute and visualize Coulomb stress changes on active faults using USGS data and
-                    Okada-based modeling. Aims to make seismic stress analysis accessible for public and educational use.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {['Python', 'FastAPI', 'Plotly', 'USGS APIs', 'GIS'].map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
+            {/* Project 4 */}
+            <a
+              href="https://github.com/9timbo9/Cone_Crisis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/Personal-Website/project3.png"
+                alt="Project 3 thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  Cone Crisis
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  Cone Crisis is a fast-paced ice cream shop simulator developed in Unity where players manage customer orders under time pressure. Gameplay includes scooping flavors, building sundaes, and handling increasing difficulty as customer demand rises. Designed with responsive UI, custom shaders, and smooth animations to deliver an engaging experience. Features player progression, scoring, and in-game tutorials.                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['C#', 'Unity', 'ShaderLab', 'HLSL', 'Game Development'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
-              </a>
+              </div>
+            </a>
+            {/* Project 5 – Coulomb Stress App (In Dev) */}
+            <a
+              href="#" // change if different
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/Personal-Website/project4.png"
+                alt="Coulomb Stress App thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
 
-            </div>
-          </section>
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  Coulomb Stress Visualization App <span className="text-xs text-gray-400">(In Development)</span>
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  Interactive tool to compute and visualize Coulomb stress changes on active faults using USGS data and
+                  Okada-based modeling. Aims to make seismic stress analysis accessible for public and educational use.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['Python', 'FastAPI', 'Plotly', 'USGS APIs', 'GIS'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+
+        </div>
+      </section>
 
 
 
-        </div >
+    </div >
       </main >
     </>
   );
